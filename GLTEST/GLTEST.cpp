@@ -158,14 +158,35 @@ void main(int argc, char* argv[]){
 
 	//cout <<"byte value:"<< ((GLubyte)0) << "\n";
 
-	/*--------------------------gl draw image */
+	/*--------------------------gl draw image 
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(256, 256);
 	glutInitWindowPosition(400, 100);
 	glutCreateWindow(argv[0]);
 	initImage();
 	glutDisplayFunc(displayImage);
-	glutReshapeFunc(reshapeStroke);
+	glutReshapeFunc(reshapeImage);
+	glutKeyboardFunc(keyboardImage);
+	glutMouseFunc(mouseImage);*/
+
+	/*--------------------------gl map test 1
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+	glutInitWindowSize(500, 500);
+	glutInitWindowPosition(400, 100);
+	glutCreateWindow(argv[0]);
+	initM1();
+	glutDisplayFunc(displayM1);
+	glutReshapeFunc(reshapeM1);
+	glutKeyboardFunc(keyboardM1);*/
+
+	/*--------------------------gl mipmap test*/
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+	glutInitWindowSize(500, 500);
+	glutInitWindowPosition(400, 100);
+	glutCreateWindow(argv[0]);
+	initMM();
+	glutDisplayFunc(displayMM);
+	glutReshapeFunc(reshapeMM);
 
 	glutMainLoop();
 

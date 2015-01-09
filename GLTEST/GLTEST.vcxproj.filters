@@ -74,5 +74,14 @@
     <ClCompile Include="image.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="colortable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="map1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mipmap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -50,3 +50,15 @@ void displayDrawf(void);
 
 void initImage(void);
 void displayImage(void);
+void reshapeImage(int w, int h);
+void keyboardImage(unsigned char key, int x, int y);
+void mouseImage(int button, int state, int x, int y);
+
+void initM1(void);
+void displayM1(void);
+void reshapeM1(int w, int h);
+void keyboardM1(unsigned char key, int x, int y);
+
+void initMM(void);
+void displayMM(void);
+void reshapeMM(int w, int h);
