@@ -179,14 +179,33 @@ void main(int argc, char* argv[]){
 	glutReshapeFunc(reshapeM1);
 	glutKeyboardFunc(keyboardM1);*/
 
-	/*--------------------------gl mipmap test*/
+	/*--------------------------gl mipmap test
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(500, 500);
 	glutInitWindowPosition(400, 100);
 	glutCreateWindow(argv[0]);
 	initMM();
 	glutDisplayFunc(displayMM);
-	glutReshapeFunc(reshapeMM);
+	glutReshapeFunc(reshapeMM);*/
+
+	/*--------------------------gl map texture bind 
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+	glutInitWindowSize(500, 500);
+	glutInitWindowPosition(400, 100);
+	glutCreateWindow(argv[0]);
+	initTB();
+	glutDisplayFunc(displayTB);
+	glutReshapeFunc(reshapeM1);*/
+
+	/*--------------------------gl tex gen */
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
+	glutInitWindowSize(256, 256);
+	glutInitWindowPosition(100, 100);
+	glutCreateWindow(argv[0]);
+	initTG();
+	glutDisplayFunc(displayTG);
+	glutReshapeFunc(reshapeTG);
+	glutKeyboardFunc(keyboardTG);
 
 	glutMainLoop();
 

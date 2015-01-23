@@ -107,6 +107,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="stroke.cpp" />
+    <ClCompile Include="texbind.cpp" />
+    <ClCompile Include="texgen.cpp" />
     <ClCompile Include="viewlist1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

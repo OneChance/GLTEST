@@ -62,3 +62,11 @@ void keyboardM1(unsigned char key, int x, int y);
 void initMM(void);
 void displayMM(void);
 void reshapeMM(int w, int h);
+
+void initTB(void);
+void displayTB(void);
+
+void initTG(void);
+void displayTG(void);
+void reshapeTG(int w, int h);
+void keyboardTG(unsigned char key, int x, int y);
