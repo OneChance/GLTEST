@@ -197,7 +197,7 @@ void main(int argc, char* argv[]){
 	glutDisplayFunc(displayTB);
 	glutReshapeFunc(reshapeM1);*/
 
-	/*--------------------------gl tex gen */
+	/*--------------------------gl tex gen
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
 	glutInitWindowSize(256, 256);
 	glutInitWindowPosition(100, 100);
@@ -205,7 +205,25 @@ void main(int argc, char* argv[]){
 	initTG();
 	glutDisplayFunc(displayTG);
 	glutReshapeFunc(reshapeTG);
-	glutKeyboardFunc(keyboardTG);
+	glutKeyboardFunc(keyboardTG); */
+
+	/*--------------------------gl stencil
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH | GLUT_STENCIL);
+	glutInitWindowSize(400, 400);
+	glutInitWindowPosition(200, 200);
+	glutCreateWindow(argv[0]);
+	initSTENCIL();
+	glutDisplayFunc(displaySTENCIL);
+	glutReshapeFunc(reshapeSTENCIL);
+
+	glutMainLoop();*/
+
+	/*--------------------------gl my_stencil_test */
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH | GLUT_STENCIL);
+	glutInitWindowSize(400, 400);
+	glutInitWindowPosition(200, 200);
+	glutCreateWindow(argv[0]);
+	glutDisplayFunc(displayMySDT);
 
 	glutMainLoop();
 

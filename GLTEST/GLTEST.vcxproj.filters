@@ -89,5 +89,11 @@
     <ClCompile Include="texgen.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="stencil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="my_stencil_depth_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

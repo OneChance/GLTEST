@@ -8,6 +8,7 @@ using namespace std;
 GLfloat diffuseMaterial[4] = { 0.5, 0.5, 0.5, 1.0 };
 
 void initMethod(void){
+
 	GLfloat mat_specular[] = { 1.0, 1.0, 1.0, 1.0 };
 
 	glClearColor(0.0, 0.0, 0.2, 0.0);
@@ -24,8 +25,6 @@ void initMethod(void){
 }
 
 void displayMethod(void){
-
-	cout << "display...........";
 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -51,18 +50,9 @@ void displayMethod(void){
 
 void reshapeMethod(int w, int h){
 
-	cout << "reshape..........."; 
-
 	glViewport(0.0, 0.0, (GLsizei)w, (GLsizei)h);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-
-	//if (w <= h){
-	//	glOrtho(-2.5, 2.5, -2.5*(GLfloat)h / (GLfloat)w, 2.5*(GLfloat)h / (GLfloat)w, -10, 10);
-	//}
-	//else{
-	//	glOrtho(-2.5 * (GLfloat)w / (GLfloat)h, 2.5*(GLfloat)w / (GLfloat)h, -2.5, 2.5, -10, 10);
-	//}
 
 	gluPerspective(80.0f, w/h, 1.0, 200.0); //Í¸ÊÓÍ¶Ó° 
 	glMatrixMode(GL_MODELVIEW);

@@ -70,3 +70,10 @@ void initTG(void);
 void displayTG(void);
 void reshapeTG(int w, int h);
 void keyboardTG(unsigned char key, int x, int y);
+
+
+void initSTENCIL(void);
+void displaySTENCIL(void);
+void reshapeSTENCIL(int w, int h);
+
+void displayMySDT(void);

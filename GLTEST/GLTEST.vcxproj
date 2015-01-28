@@ -102,10 +102,12 @@
     <ClCompile Include="map1.cpp" />
     <ClCompile Include="mipmap.cpp" />
     <ClCompile Include="multisamp.cpp" />
+    <ClCompile Include="my_stencil_depth_test.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="stencil.cpp" />
     <ClCompile Include="stroke.cpp" />
     <ClCompile Include="texbind.cpp" />
     <ClCompile Include="texgen.cpp" />
