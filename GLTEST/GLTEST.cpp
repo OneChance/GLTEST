@@ -218,12 +218,20 @@ void main(int argc, char* argv[]){
 
 	glutMainLoop();*/
 
-	/*--------------------------gl my_stencil_test */
+	/*--------------------------gl my_stencil_test 
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH | GLUT_STENCIL);
 	glutInitWindowSize(400, 400);
 	glutInitWindowPosition(200, 200);
 	glutCreateWindow(argv[0]);
-	glutDisplayFunc(displayMySDT);
+	glutDisplayFunc(displayMySDT);*/
+
+	/*--------------------------gl my_stencil_test*/
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+	glutInitWindowSize(500, 500);
+	glutInitWindowPosition(200, 200);
+	glutCreateWindow(argv[0]);
+	glutDisplayFunc(displayTess);
+	glutReshapeFunc(reshapeTess);
 
 	glutMainLoop();
 

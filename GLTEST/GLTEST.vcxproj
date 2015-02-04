@@ -94,6 +94,7 @@
     <ClCompile Include="blendeqn.cpp" />
     <ClCompile Include="ColorMaterial.cpp" />
     <ClCompile Include="colortable.cpp" />
+    <ClCompile Include="dof.cpp" />
     <ClCompile Include="drawf.cpp" />
     <ClCompile Include="fog.cpp" />
     <ClCompile Include="fogcoord.cpp" />
@@ -109,6 +110,7 @@
     </ClCompile>
     <ClCompile Include="stencil.cpp" />
     <ClCompile Include="stroke.cpp" />
+    <ClCompile Include="tess.cpp" />
     <ClCompile Include="texbind.cpp" />
     <ClCompile Include="texgen.cpp" />
     <ClCompile Include="viewlist1.cpp" />

@@ -1,8 +1,8 @@
-﻿生成启动时间为 2015/1/27 15:21:35。
+﻿生成启动时间为 2015/2/4 16:05:52。
      1>项目“D:\OLDCOMPUTER\OTHER\GLTEST\GLTEST\GLTEST.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\OLDCOMPUTER\OTHER\vs2013\app\VC\bin\CL.exe /c /ID:\OLDCOMPUTER\OTHER\GLTEST\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GLTEST.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt my_stencil_depth_test.cpp
-         my_stencil_depth_test.cpp
+         D:\OLDCOMPUTER\OTHER\vs2013\app\VC\bin\CL.exe /c /ID:\OLDCOMPUTER\OTHER\GLTEST\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GLTEST.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt tess.cpp
+         tess.cpp
        Link:
          D:\OLDCOMPUTER\OTHER\vs2013\app\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OLDCOMPUTER\OTHER\GLTEST\Debug\GLTEST.exe" /INCREMENTAL /NOLOGO glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OLDCOMPUTER\OTHER\GLTEST\Debug\GLTEST.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OLDCOMPUTER\OTHER\GLTEST\Debug\GLTEST.lib" /MACHINE:X86 Debug\aaindex.obj
          Debug\aargb.obj
@@ -11,6 +11,7 @@
          Debug\blendeqn.obj
          Debug\ColorMaterial.obj
          Debug\colortable.obj
+         Debug\dof.obj
          Debug\drawf.obj
          Debug\fog.obj
          Debug\fogcoord.obj
@@ -23,6 +24,7 @@
          Debug\stdafx.obj
          Debug\stencil.obj
          Debug\stroke.obj
+         Debug\tess.obj
          Debug\texbind.obj
          Debug\texgen.obj
          Debug\viewlist1.obj
@@ -31,4 +33,4 @@
 
 生成成功。
 
-已用时间 00:00:01.32
+已用时间 00:00:00.84

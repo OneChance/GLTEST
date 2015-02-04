@@ -77,3 +77,6 @@ void displaySTENCIL(void);
 void reshapeSTENCIL(int w, int h);
 
 void displayMySDT(void);
+
+void displayTess(void);
+void reshapeTess(int w, int h);
