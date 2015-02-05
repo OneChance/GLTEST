@@ -2,7 +2,6 @@ d:\oldcomputer\other\gltest\gltest\debug\gltest.pch
 d:\oldcomputer\other\gltest\gltest\debug\vc120.pdb
 d:\oldcomputer\other\gltest\gltest\debug\vc120.idb
 d:\oldcomputer\other\gltest\gltest\debug\stdafx.obj
-d:\oldcomputer\other\gltest\gltest\debug\alpha3d.obj
 d:\oldcomputer\other\gltest\gltest\debug\blendeqn.obj
 d:\oldcomputer\other\gltest\gltest\debug\colormaterial.obj
 d:\oldcomputer\other\gltest\gltest\debug\colortable.obj
@@ -16,6 +15,7 @@ d:\oldcomputer\other\gltest\gltest\debug\map1.obj
 d:\oldcomputer\other\gltest\gltest\debug\mipmap.obj
 d:\oldcomputer\other\gltest\gltest\debug\multisamp.obj
 d:\oldcomputer\other\gltest\gltest\debug\my_stencil_depth_test.obj
+d:\oldcomputer\other\gltest\gltest\debug\quadric.obj
 d:\oldcomputer\other\gltest\gltest\debug\stencil.obj
 d:\oldcomputer\other\gltest\gltest\debug\stroke.obj
 d:\oldcomputer\other\gltest\gltest\debug\tess.obj
@@ -25,6 +25,8 @@ d:\oldcomputer\other\gltest\gltest\debug\viewlist1.obj
 d:\oldcomputer\other\gltest\gltest\debug\aaindex.obj
 d:\oldcomputer\other\gltest\gltest\debug\aargb.obj
 d:\oldcomputer\other\gltest\gltest\debug\alpha.obj
+d:\oldcomputer\other\gltest\gltest\debug\alpha3d.obj
+d:\oldcomputer\other\gltest\gltest\debug\bezier4point.obj
 d:\oldcomputer\other\gltest\debug\gltest.ilk
 d:\oldcomputer\other\gltest\debug\gltest.exe
 d:\oldcomputer\other\gltest\debug\gltest.pdb

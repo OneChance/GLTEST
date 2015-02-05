@@ -225,14 +225,43 @@ void main(int argc, char* argv[]){
 	glutCreateWindow(argv[0]);
 	glutDisplayFunc(displayMySDT);*/
 
-	/*--------------------------gl my_stencil_test*/
+	/*--------------------------gl my_stencil_test
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(500, 500);
 	glutInitWindowPosition(200, 200);
 	glutCreateWindow(argv[0]);
 	glutDisplayFunc(displayTess);
-	glutReshapeFunc(reshapeTess);
+	glutReshapeFunc(reshapeTess);*/
+
+	/*--------------------------gl quadric 
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
+	glutInitWindowSize(500, 500);
+	glutInitWindowPosition(200, 200);
+	glutCreateWindow(argv[0]);
+	initQua();
+	glutDisplayFunc(displayQua);
+	glutReshapeFunc(reshapeQua);*/
+
+	/*--------------------------gl 一维求值器 贝塞尔曲线
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+	glutInitWindowSize(500, 500);
+	glutInitWindowPosition(200, 200);
+	glutCreateWindow(argv[0]);
+	initB4();
+	glutDisplayFunc(displayB4);
+	glutReshapeFunc(reshapeB4); */
+
+	/*--------------------------gl 二维求值器  曲面*/
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+	glutInitWindowSize(500, 500);
+	glutInitWindowPosition(200, 200);
+	glutCreateWindow(argv[0]);
+	initBS();
+	glutDisplayFunc(displayBS);
+	glutReshapeFunc(reshapeBS); 
 
 	glutMainLoop();
 
 }
+
+

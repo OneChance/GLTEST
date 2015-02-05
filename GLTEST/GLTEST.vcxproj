@@ -91,6 +91,8 @@
     <ClCompile Include="aargb.cpp" />
     <ClCompile Include="alpha.cpp" />
     <ClCompile Include="alpha3d.cpp" />
+    <ClCompile Include="bezier4point.cpp" />
+    <ClCompile Include="bezsurf.cpp" />
     <ClCompile Include="blendeqn.cpp" />
     <ClCompile Include="ColorMaterial.cpp" />
     <ClCompile Include="colortable.cpp" />
@@ -104,6 +106,7 @@
     <ClCompile Include="mipmap.cpp" />
     <ClCompile Include="multisamp.cpp" />
     <ClCompile Include="my_stencil_depth_test.cpp" />
+    <ClCompile Include="quadric.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

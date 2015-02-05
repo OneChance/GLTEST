@@ -80,3 +80,15 @@ void displayMySDT(void);
 
 void displayTess(void);
 void reshapeTess(int w, int h);
+
+void initQua(void);
+void displayQua(void);
+void reshapeQua(int w, int h);
+
+void initB4(void);
+void displayB4(void);
+void reshapeB4(int w, int h);
+
+void initBS(void);
+void displayBS(void);
+void reshapeBS(int w, int h);

@@ -98,5 +98,17 @@
     <ClCompile Include="dof.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="tess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="quadric.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bezier4point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bezsurf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
