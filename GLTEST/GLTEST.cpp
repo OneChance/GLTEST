@@ -251,14 +251,24 @@ void main(int argc, char* argv[]){
 	glutDisplayFunc(displayB4);
 	glutReshapeFunc(reshapeB4); */
 
-	/*--------------------------gl 二维求值器  曲面*/
+	/*--------------------------gl 二维求值器  曲面
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(500, 500);
 	glutInitWindowPosition(200, 200);
 	glutCreateWindow(argv[0]);
 	initBS();
 	glutDisplayFunc(displayBS);
-	glutReshapeFunc(reshapeBS); 
+	glutReshapeFunc(reshapeBS); */
+
+	/*--------------------------gl nurbs 曲面 */ 
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+	glutInitWindowSize(500, 500);
+	glutInitWindowPosition(200, 200);
+	glutCreateWindow(argv[0]);
+	initSF();
+	glutDisplayFunc(displaySF);
+	glutReshapeFunc(reshapeSF);
+	glutKeyboardFunc(keyboardSF);
 
 	glutMainLoop();
 

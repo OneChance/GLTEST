@@ -113,6 +113,7 @@
     </ClCompile>
     <ClCompile Include="stencil.cpp" />
     <ClCompile Include="stroke.cpp" />
+    <ClCompile Include="surface.cpp" />
     <ClCompile Include="tess.cpp" />
     <ClCompile Include="texbind.cpp" />
     <ClCompile Include="texgen.cpp" />

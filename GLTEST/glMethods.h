@@ -92,3 +92,8 @@ void reshapeB4(int w, int h);
 void initBS(void);
 void displayBS(void);
 void reshapeBS(int w, int h);
+
+void initSF(void);
+void displaySF(void);
+void reshapeSF(int w, int h);
+void keyboardSF(unsigned char key, int x, int y);
